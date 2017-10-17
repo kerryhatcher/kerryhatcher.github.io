@@ -1,6 +1,6 @@
 ---
 published: true
-layout: post
+layout: default
 title: >-
   Exchange 2013 | Enable all users' mailboxes and add all users to distribution
   group
