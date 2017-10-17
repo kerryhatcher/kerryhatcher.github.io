@@ -24,11 +24,11 @@ layout: noslider
                               </div>
                               <div class="post_content">
                                    <figure><a href="{{ post.url | prepend: site.baseurl }}"><img alt="0" src="images/portfolio/p4.jpg"></a></figure>
-                                   <p>Fugiat dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum mas justo sitters amet risus. Cras mattis cosi sectetut amet fermens etrsaters tum aecenas faucib sadips amets. Fugiat dapibus, tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum mas justo sitters amet risus. Cras mattis cosi sectetut amet fermens etrsaters tum aecenas faucib sadips amets....</p>
+                                   <p>{{ post.excerpt }}</p>
                                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary">Read More</a> </div>
                          </article>
                          {% endfor %}
-                         <div class="pagination_wrapper">
+                         <!--<div class="pagination_wrapper">
                               <ul class="pagination pagination-centered">
                                    <li class="disabled"><a href="#">«</a></li>
                                    <li class="active"><a href="#">1</a></li>
@@ -38,7 +38,7 @@ layout: noslider
                                    <li><a href="#">5</a></li>
                                    <li><a href="#">»</a></li>
                               </ul>
-                         </div>
+                         </div>-->
                     </div>
                     <!--<div id="sidebar" class="col-sm-4 col-md-4">
                          <aside class="widget">
