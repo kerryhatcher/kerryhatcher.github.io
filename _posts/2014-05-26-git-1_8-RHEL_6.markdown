@@ -6,10 +6,6 @@ date: '2014-05-26 15:19:22 -0500'
 categories: git
 ---
 
-
-
-## Install Git 1.8 on RHEL 6
-
 While PyCharm does work with the native version of Git that ships with RHEL 6.5, it does complain a lot. I also feared that something would go wrong eventually so I started looking around on updating.
 
 There wasn't a newer version of Git in fast track so I had to go with somthing else. Luckly I found the IUS Community Project. 
