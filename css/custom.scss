@@ -1,0 +1,54 @@
+---
+---
+// - - - - - - - - - - - - - - - - - -
+
+// Contact form
+
+// - - - - - - - - - - - - - - - - - -
+.author-profile-image, .avatar-wrapper {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #e3e9ed;
+	border-radius: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.static-avatar {
+	display: block;
+	overflow: hidden;
+	margin: 0 0 0 -6px;
+	width: 55px;
+	height: 55px;
+	border: 2px solid #fff;
+	border-radius: 100%;
+}
+
+.post-card-footer {
+	display: flex;
+	align-items: flex-start;
+	padding-top: 20px;
+	float:none;
+}
+
+
+.post-card-byline-content {
+	flex: 1 1 50%;
+	display: flex;
+	flex-direction: column;
+	margin: 2px 0 0 6px;
+	color: #92a3ab;
+	font-size: 1.2rem;
+	line-height: 1.4em;
+	font-weight: 400;
+	letter-spacing: .2px;
+	text-transform: uppercase;
+}
+
+.post-title-footer {
+	display: flex;
+	align-items: flex-start;
+	padding-top: 20px;
+	float:none;
+}

@@ -1,8 +1,9 @@
 ---
 title: "Save money, protect your site with a CDN"
-date: 2020-05-07 00:00:00
+date: 2020-05-07 12:00:00
 description: Once upon a time adding something like a Content Delivery Network (CDN) was expensive and complicated. Luckily, today you can add a CDN for free to any website quickly and easily (CloudFlare's lowest tier is free)
 featured_image: '/images/save-money-protect-your-site-with-a-cdn/photo-1484557052118-f32bd25b45b5.jpeg'
+author: kerry
 ---
 
 There are many providers out there that provide CDN services, but the 3 big ones are Akamai, Amazon Web Services (AWS), and Cloudflare. All 3 offer the same basic services with other add-ons and varying levels of complexity. AWS's product (named CloudFront) is mostly geared to applications or websites hosted in their other services, but can be used for other "origins" as well. More on that later.

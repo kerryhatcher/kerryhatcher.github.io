@@ -1,8 +1,9 @@
 ---
 title: "It's time to switch to a new email provider."
-date: 2018-06-30 00:00:00
+date: 2018-06-30 12:00:00
 description: Google and other email providers parse your emails and use that data to show you Ads or just sell that information to 3rd parties. Ever had that creepy feeling when ads start showing up on websites for something you haven't even told anyone you were thinking about buying? Well, now you know why. 
 featured_image: '/images/its-time-to-switch-to-a-new-email-provider/protonmail-corporate-door.jpg'
+author: kerry
 ---
 
 
