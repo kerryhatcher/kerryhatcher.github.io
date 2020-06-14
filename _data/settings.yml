@@ -28,11 +28,11 @@ contact_settings:
   send_button_text: 'Send Message'
 
 social_settings:
-  facebook_url: ''
-  twitter_url: ''
-  instagram_url: ''
+  facebook_url: 'https://www.facebook.com/thekerryhatcher/'
+  twitter_url: 'https://twitter.com/kerryhatcher'
+  instagram_url: 'https://www.instagram.com/kwhatcher/'
   snapchat_url: ''
-  youtube_url: ''
+  youtube_url: 'https://www.youtube.com/channel/UCEADJC_JNhnP6vZ07nzGa_A'
   google-plus_url: ''
   vimeo_url: ''
   pinterest_url: ''
