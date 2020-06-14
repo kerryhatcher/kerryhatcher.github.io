@@ -28,7 +28,7 @@ twitter_username: kerryhatcher
 github_username:  kerryhatcher
 
 # Build settings
-theme: minima
+theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
 
