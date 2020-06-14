@@ -23,6 +23,10 @@ layout: default
 
 		<article class="single-post">
 
+			<p>{{ page.description }}</p>
+
+		    <p><img src="{{ page.featured_image | relative_url }}"></p>
+
 			{{ page.content }}
 
 		</article>

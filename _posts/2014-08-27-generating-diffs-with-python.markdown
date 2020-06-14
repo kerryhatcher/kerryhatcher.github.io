@@ -3,7 +3,11 @@
 title:  "Generating Diffs with Python"
 date:   2014-08-27 15:19:22 -0500
 categories: python diffs
+description: 'Lets see how to compare server configuration via python. (Warning: this post is very old.)'
+featured_image: '/images/compare.webp'
 ---
+
+**WARNING** This post is very old and was intened for Python 2. It may not work on current systems. 
 
 When managing large numbers of servers, one of the hardest problems to deal with is standard configuration drift, especially in big enterprise multi-admin environments. Over time as various sysadmins fix small issues on individual servers, the systems diverge from the standard settings that other admins expect to find on the boxes. This causes big issues down the road when trying to troubleshoot a followup issue.
 As system admins we all have our scripts we write to make our lives easier, and while the standard diff tool that comes with linux is great, sometimes we need a \“Pythonic\” way to do things. Enter DiffLIb

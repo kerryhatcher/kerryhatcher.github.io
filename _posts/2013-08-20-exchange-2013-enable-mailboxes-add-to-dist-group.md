@@ -5,6 +5,8 @@ title: >-
   group
 date: '2013-08-20 15:19:22 -0500'
 categories: exchange
+description: 'Auotmation is always better'
+featured_image: '/images/mail.webp'
 ---
 
 We are currently in the process of setting up an all new domain and related services. We have some techs doing the creation of users but those needed mailboxes created in exchange. So instead of manually creating the mailboxes in the ECP I just ran this script from the domain administrator login on the exchange  CAS:
