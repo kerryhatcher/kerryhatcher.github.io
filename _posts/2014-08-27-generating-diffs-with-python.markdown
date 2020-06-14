@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title:  "Generating Diffs with Python"
 date:   2014-08-27 15:19:22 -0500
 categories: python diffs

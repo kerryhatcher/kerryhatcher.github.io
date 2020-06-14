@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Intel Kernel Memory Leaking
 date:  2018-01-02 15:19:22 -0500
 categories: intel security kernel
