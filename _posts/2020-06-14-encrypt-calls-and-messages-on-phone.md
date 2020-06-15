@@ -2,11 +2,11 @@
 title: "Encrypt your calls and messages on your smartphone"
 date: 2020-05-19 12:00:00
 description: "Warning, we're headed deep into tinfoil hat territory on this one. Keeping prying eyes and ears away from your mobile phone communications is easier than you probably think. "
-featured_image: '/images/encrypt-calls-and-messages-on-phone/signal-1.png'
+featured_image: '/images/encrypt-calls-and-messages-on-phone/photo-1477244075012-5cc28286e465.webp'
 author: kerry
 ---
 
-Ever worry that "they" might be listening to your calls? Need to send your spouse an important text message but concerned about anyone being able to read it along the way? Well good news! Signal is here to help!
+Ever worry that "they" might be listening to your calls? Need to send your spouse an important text message, but concerned about anyone being able to read it along the way? Well good news! Signal is here to help!
 
 ![](/images/encrypt-calls-and-messages-on-phone/photo-1524860769472-246b6afea403.jpeg)
 
@@ -44,7 +44,7 @@ Spoofing uses a feature in the callerID system that allows a number to appear to
 ---
 
 
-![](/images/encrypt-calls-and-messages-on-phone/image-3.png)
+![](/images/encrypt-calls-and-messages-on-phone/signal-1.png)
 
 
 ## Signal to the rescue
