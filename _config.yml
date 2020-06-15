@@ -39,6 +39,8 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+      sitemap: false
+
 
 markdown: kramdown
 
