@@ -12,7 +12,7 @@ Ever worry that "they" might be listening to your calls? Need to send your spous
 
 ---
 
-# Whats there to be worried about?
+# What's there to be worried about?
 
 To be fair, the sophistication level needed to "tap" a phone call or intercept a SMS message is really high. That's no reason to let your guard down. With the [checkered history of the U.S. Government's wiretapping](https://www.aclu.org/other/myths-and-realities-about-patriot-act) coupled with [domestic](https://www.eff.org/pages/cell-site-simulatorsimsi-catchers) and [foreign](https://www.wired.com/story/dcs-stingray-dhs-surveillance/) use of so called stingray devices, [it's not paranoid to be concerned](https://www.aclu.org/issues/privacy-technology/surveillance-technologies/stingray-tracking-devices-whos-got-them). (**I'm not a lawyer**) It's important to understand that communications can be taken out of context [and used against you, even if you are innocent](https://www.youtube.com/watch?v=d-7o9xYp7eE). The old adage of "if your innocent, then you have nothing to hide" is a misnomer. 
 
@@ -34,7 +34,7 @@ The SMS protocol suffers from many of the same [security issues of email](https:
 
 ## Spoofing and SIM swapping
 
-While the signal app won't necessarily help with these issues completely, its important to understand what these are. The issue here is that you can't really be assured that a message you send is going to the right person, nor can you know that a message you receive is actually from who you think they are.
+While the Signal app won't necessarily help with these issues completely, its important to understand what these are. The issue here is that you can't really be assured that a message you send is going to the right person, nor can you know that a message you receive is actually from who you think they are.
 
 Spoofing uses a feature in the callerID system that allows a number to appear to be another. This was intended for businesses that want to have a single number show up when they call someone, no matter who at the business was calling. Very useful in a call center setting where an individual phone might not be manned by the same person or at all. So grandma might be getting a call from her dear grandson, but actually it's a scammer trying to steal money. 
 
@@ -62,11 +62,11 @@ Signal competitors are all closed source applications run by for-profit corporat
 
 ### Trusted by the government
 
-While it is a little counter logic to trust an app because the government you don't trust uses it, still worth mentioning.
+While it is a little counter logic to trust an app because the government you don't trust uses it, it is still worth mentioning.
 
 With the discovery of [rogue stingray devices](https://www.wired.com/story/dcs-stingray-dhs-surveillance/) in the D.C. area, the security of Congress and its staff's phone and text messages were in doubt. So [Signal was adopted](https://www.wired.com/story/dcs-stingray-dhs-surveillance/) for use on non-classified devices to deter broad espionage efforts.
 
-The army has also picked up usage of Signal for personal and government phones. When the 82nd Airborne was deployed to the Middle East, the soldiers [were instructed to use Signal](https://www.militarytimes.com/flashpoints/2020/01/23/deployed-82nd-airborne-unit-told-to-use-these-encrypted-messaging-apps-on-government-cellphones/) for communications that would have been over regular phone call or sms message.  
+The Army has also picked up usage of Signal for personal and government phones. When the 82nd Airborne was deployed to the Middle East, the soldiers [were instructed to use Signal](https://www.militarytimes.com/flashpoints/2020/01/23/deployed-82nd-airborne-unit-told-to-use-these-encrypted-messaging-apps-on-government-cellphones/) for communications that would have been over regular phone call or sms message.  
 
 
 While not used for any classified or sensitive information, chit chat on unencrypted devices can still be very useful to an adversary. They can use the bits and pieces picked up to paint a clearer picture than they otherwise would have been able to.   
