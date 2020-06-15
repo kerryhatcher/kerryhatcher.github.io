@@ -78,7 +78,7 @@ While not used for any classified or sensitive information, chit chat on unencry
 
 ### Bonus: Signal Desktop
 
-A rather new feature of Signal is their desktop app. This allows you to type messages up and keep converstions going no matter what device you are on. I'm a fan :) 
+A rather new feature of Signal is their [desktop app](https://signal.org/en/download/). This allows you to type messages up and keep converstions going no matter what device you are on. I'm a fan :) 
 
 ---
 
