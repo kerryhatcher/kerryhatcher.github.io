@@ -145,7 +145,7 @@ With the recent COVID-19 situation, many people have taken to platforms like [Tw
 
 Check out my test stream of the latest remastered version of Age of Empires II. First time playing it, its basically the same game but didn't have any major bugs other than I couldn't get it to run on the monitor I wanted it to.
 
-<iframe src="https://player.twitch.tv/?video=628165511&parent=www.kerryhatcher.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+<iframe src="https://player.twitch.tv/?video=628165511&parent=www.kerryhatcher.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378"></iframe>
 
 ---
 
