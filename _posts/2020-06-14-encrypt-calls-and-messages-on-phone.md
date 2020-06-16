@@ -2,7 +2,7 @@
 title: "Encrypt your calls and messages on your smartphone"
 date: 2020-06-14 12:00:00
 description: "Warning, we're headed deep into tinfoil hat territory on this one. Keeping prying eyes and ears away from your mobile phone communications is easier than you probably think. "
-featured_image: '/images/encrypt-calls-and-messages-on-phone/photo-1477244075012-5cc28286e465.webp'
+featured_image: '/images/encrypt-calls-and-messages-on-phone/photo-1477244075012-5cc28286e465.png'
 author: kerry
 ---
 
