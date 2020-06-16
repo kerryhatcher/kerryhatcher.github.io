@@ -8,7 +8,7 @@ author: kerry
 
 Ever worry that "they" might be listening to your calls? Need to send your spouse an important text message, but concerned about anyone being able to read it along the way? Well good news! Signal is here to help!
 
-![](/images/encrypt-calls-and-messages-on-phone/photo-1524860769472-246b6afea403.jpeg)
+![](/images/encrypt-calls-and-messages-on-phone/code.jpg)
 
 ---
 
