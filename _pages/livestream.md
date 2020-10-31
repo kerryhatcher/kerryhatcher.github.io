@@ -5,9 +5,13 @@ description: Sarge Kudzu Livestream
 featured_image: /images/demo/about.jpg
 sitemap: true
 ---
-
-<div class="video-container">
-    <video id="amazon-ivs-videojs" class="video-js vjs-4-3 vjs-big-play-centered" controls autoplay playsinline></video>
+<div class="livestream-container">
+    <div class="video-container">
+        <video id="amazon-ivs-videojs" class="video-js vjs-4-3 vjs-big-play-centered" controls autoplay playsinline></video>
+    </div>
+    <div class="chat-container">
+        <iframe src="https://minnit.chat/SargeKudzu?embed&&nickname=" style="border:none;width:90%;height:500px;" allowTransparency="true"></iframe><br><a href="https://minnit.chat/SargeKudzu" target="_blank">Get your own free chatroom with Minnit Chat</a>
+    </div>
 </div>
 <style>
     body {
