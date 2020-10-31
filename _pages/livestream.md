@@ -23,7 +23,7 @@ sitemap: true
 <script>
     (function play() {
         // Get playback URL from Amazon IVS API
-        var PLAYBACK_URL = '"https://02a3ad7dccc2.us-east-1.playback.live-video.net/api/video/v1/us-east-1.150179862823.channel.WcXJlfSGjTNr.m3u8"';
+        var PLAYBACK_URL = 'https://02a3ad7dccc2.us-east-1.playback.live-video.net/api/video/v1/us-east-1.150179862823.channel.WcXJlfSGjTNr.m3u8';
         
         // Register Amazon IVS as playback technology for Video.js
         registerIVSTech(videojs);
