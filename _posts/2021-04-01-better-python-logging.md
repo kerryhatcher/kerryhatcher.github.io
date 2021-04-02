@@ -58,25 +58,43 @@ if __name__ == "__main__":
     print(all_cars)
 ```
 
-See all those `print()` statements? They are handy since you can see how the program is handling all of the steps as it goes along. This way if something is adding up right you can see where it went wrong. This is the most basic form of logging, just printing to the standard output of the application. Saving and processing that log can then be handled by simply piping that to a text file and then doing something with that outside of the app itself.
+See all those `print()` statements? They are handy since you can see how the program is handling all of the steps as it goes along. This way if something isn't adding up right you can see where it went wrong. This is the most basic form of logging, just printing to the standard output of the application. Saving and processing that log can then be handled by simply piping that to a text file and then doing something with that outside of the app itself.
 
-Logging is an important feature for all applications and scripts. Many times its just an outgrowth of the creative development process or debugging after the fact. Either way you need a way to dynamically change the volume and detail of the output of your apps without resorting to commenting out `print()` statements. Python already has some great builtin feature to help with this but there is a great module out there that really sets the bar. More on that later. For now lets take our previous example and make it a little better.
+Logging is an important feature for all applications and scripts. Many times its just an outgrowth of the creative development process or debugging after the fact. Either way you need a way to dynamically change the volume and detail of the output of your apps without resorting to commenting out `print()` statements. Python already has some great built-in feature to help with this but there is a great module out there that really sets the bar. More on that later. For now lets take our previous example and make it a little better.
 
 ```python
 import random
 import time
 
-import os  #---> Need this to access environment variables
 
-def logging_example(message): #---> Create a wrapper around our print statement to determine if we should print or not based on environment variable
 
+#---> Need this to access environment variables
+import os 
+
+
+#---> Create a wrapper around our print statement to determine if we should print or not based on environment variable
+def logging_example(message): 
+
+
+
+    #---> Check to see if the "print_setting" environment variable is set to enabled
     if os.getenv('print_setting')=="enable": 
-        print(message) #---> this will only happen if we run export print_setting="enable" before the app runs. 
+
+
+
+        #---> The following print function will only happen if we run export print_setting="enable" before the app runs. 
+        print(message) 
+
+
 
 def count_cars(lotname): 
 
 
+
+    #---> Send a message to our logging function.     
     logging_example("Starting to count cars")
+
+
 
     logging_example(lotname)
 
@@ -122,13 +140,13 @@ if __name__ == "__main__":
     print(all_cars)
 ```
 
-Thats a little bit better. Now we can control just how verbose our output is based on an environment variable. It would be better if we could have multiple levels of output and even send save the output of different levels to a text file or something without printing a bunch of stuff to the command line for the user to see. Let me introduce you to Loguru. This is also known as logging level. Usually errors are always logged so those would be at a high level, whereas debug statements are common throughout an application and are considered low level. This way your logs only show the minimal information required while allowing the threshold for what is minimal to be easily configured.  
+Thats a little bit better. Now we can control just how verbose our output is based on an environment variable. It would be better if we could have multiple levels of output and even send save the output of different levels to a text file or something without printing a bunch of stuff to the command line for the user to see. This is also known as logging level. Usually errors are always logged so those would be at a high level, whereas debug statements are common throughout an application and are considered low level. This way your logs only show the minimal information required while allowing the threshold for what is minimal to be easily configured.  
 
 ## Loguru
 
 ![Loguru project logo](https://raw.githubusercontent.com/Delgan/loguru/master/docs/_static/img/logo.png)
 
-Loguru makes all that we've talked about so far easy and automatic. An extremely over simplistic explanation is that Loguru works like the `logging_example("Here is a simple message")` function from the previous example. It has a lot of flexibility and customization options however it is still just as simple to use. The only added mandatory extra "config" is to pass what logging level a message is. So for example: `logger.debug("Here is a simple message")`.
+[Loguru](https://github.com/Delgan/loguru) makes all that we've talked about so far easy and automatic. An extremely over simplistic explanation is that [Loguru](https://github.com/Delgan/loguru) works like the `logging_example("Here is a simple message")` function from the previous example. It has a lot of flexibility and customization options however, it is still just as simple to use. The only added mandatory extra "config" is to pass what logging level a message is. So for example: `logger.debug("Here is a simple message")`.
 
 Loguru also gives a lot of really great information back on our log messages. Lets take the previous example and update it with Loguru.
 
@@ -136,15 +154,30 @@ Loguru also gives a lot of really great information back on our log messages. Le
 import random
 import time
 
-from loguru import logger
 
+
+
+#---> Add Loguru to the project
+from loguru import logger 
+
+
+
+#---> This next line isn't required to get started
+#---> We will talk about what this is for in the next section
 logger.add("demo.log", rotation="1 week", retention="5 weeks", compression="zip")  
+
 
 
 def count_cars(lotname): 
 
 
+
+
+    #---> Send loguru some messages and that is it. 
     logger.debug("Starting to count cars")
+
+
+
 
     logger.debug(lotname)
 
@@ -240,9 +273,14 @@ Those extra options tell Loguru to rotate the log file every week, keep 5 weeks 
 
 Even better than saving the logs to the local computer is shipping them off to a service. This has the added advantage of surviving any sort of failure of the host computer. So if your app had a but that deleted every file on the hard drive because of a typo the logs will still exist elsewhere.
 
-My default log service is AWS Cloudwatch Logs. There are plenty of "better" options out there but most of my work is done in AWS so it is generally easier for me to use it. To get those logs into AWS we will use a package called `Watchtower`. This all assumes you have an AWS account which is free to setup and many services have free tiers of use. Also you will need to ensure you have setup your AWS credentials on the computer where your app is running.
+My default log service is [AWS Cloudwatch Logs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html). There are plenty of "better" options out there but most of my work is done in AWS so it is generally easier for me to use it. To get those logs into AWS we will use a package named [Watchtower](https://watchtower.readthedocs.io/en/latest/). This all assumes you have an [AWS account which is free to setup and many services have free tiers of use](https://aws.amazon.com/free/). Also you will need to ensure you have setup your [AWS credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) on the computer where your app is running.
 
-Lets go update our example with watchtower. It is as simple as adding `logger.add(watchtower.CloudWatchLogHandler(log_group="/kh.com/better_py_logging", stream_name="demotime"))` We can leave the bit in that saves the logs to the local hard drive as well.
+Lets go update our example with watchtower. It is as simple as adding 
+```python
+logger.add(watchtower.CloudWatchLogHandler(log_group="/kh.com/better_py_logging", stream_name="demotime"))
+```
+
+We can leave the bit in that saves the logs to the local hard drive as well.
 
 ```python
 import random
@@ -251,8 +289,20 @@ import time
 from loguru import logger
 import watchtower
 
+
+
+
+#---> Keep the log file with rotation, etc in place
 logger.add("demo.log", rotation="1 week", retention="5 weeks", compression="zip")  
+
+
+
+
+#---> Another destination for logs in AWS
 logger.add(watchtower.CloudWatchLogHandler(log_group="/kh.com/better_py_logging", stream_name="demotime"))
+
+
+
 
 def count_cars(lotname): 
 
