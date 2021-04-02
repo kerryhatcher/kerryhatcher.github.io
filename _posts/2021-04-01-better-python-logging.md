@@ -308,7 +308,14 @@ Now if we log into AWS we can see our logs even if the host computer fails in so
 
 ![screenshot of log data in AWS](/images/better-python-logging/aws_cw_logs.png)
 
+---
+
+Proper logging in Python can be added to any project no matter the size or complexity. Doing so will save you plenty of time and fustration.
 
 ---
 
-Proper logging in Python can be added to any project no matter the size or complexity. Doing so will save you plenty of time and fustration. 
+> I hope you found this post useful and interesting. If you did, please consider chipping in to help offset the cost of running this website. That way I can keep bringing you content without the need for ads.  
+>  
+> Thanks, Kerry
+
+<a href="https://www.buymeacoffee.com/kerryhatcher" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/arial-green.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
