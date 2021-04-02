@@ -2,6 +2,13 @@
 
 https://www.kerryhatcher.com/better-python-logging/
 
+Install the dependencies to a python virtual environment using:
+
+```s
+pip install -r requirements.txt
+```
+[Read this if you don't know what that means](https://blog.usejournal.com/why-and-how-to-make-a-requirements-txt-f329c685181e)
+
 ---
 
 ## Tested on

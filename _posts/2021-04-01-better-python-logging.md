@@ -6,6 +6,14 @@ featured_image: '/images/better-python-logging/chris-ried-ieic5Tq8YMk-unsplash.j
 author: kerry
 ---
 
+---
+
+To download the code examples and details on how to run it locally please [check out this link](https://github.com/kerryhatcher/kerryhatcher.github.io/tree/master/examples/better-python-logging)
+
+---
+
+## Recognizing you have a problem
+
 Is that variable getting set correctly? Why is your loop sometimes failing? Debugging in general can be a pain and most folks start off by sprinkling `print()` statements all over there code. Hello I'm Kerry and sometimes I abuse `print()` myself. So lets talk about how to improve the situation starting with the following example:
 
 ```python
