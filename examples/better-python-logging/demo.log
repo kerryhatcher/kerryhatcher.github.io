@@ -1,0 +1,110 @@
+2021-04-02 05:36:57.178 | DEBUG    | __main__:<module>:45 - App started
+2021-04-02 05:36:57.179 | INFO     | __main__:<module>:47 - Counting cars in: henry_ford,buck_chevy,jimmy_jeep
+2021-04-02 05:36:57.179 | DEBUG    | __main__:count_cars:12 - Starting to count cars
+2021-04-02 05:36:57.179 | DEBUG    | __main__:count_cars:14 - henry_ford
+2021-04-02 05:36:57.180 | DEBUG    | __main__:count_cars:18 - four_door_cars: 0
+2021-04-02 05:36:57.580 | DEBUG    | __main__:count_cars:24 - three_door_cars: 0
+2021-04-02 05:36:57.981 | DEBUG    | __main__:count_cars:30 - Total cars at henry_ford: 0
+2021-04-02 05:36:58.382 | DEBUG    | __main__:count_cars:34 - done counting cars
+2021-04-02 05:36:58.383 | DEBUG    | __main__:count_cars:12 - Starting to count cars
+2021-04-02 05:36:58.383 | DEBUG    | __main__:count_cars:14 - buck_chevy
+2021-04-02 05:36:58.383 | DEBUG    | __main__:count_cars:18 - four_door_cars: 9
+2021-04-02 05:36:58.784 | DEBUG    | __main__:count_cars:24 - three_door_cars: 9
+2021-04-02 05:36:59.185 | DEBUG    | __main__:count_cars:30 - Total cars at buck_chevy: 18
+2021-04-02 05:36:59.585 | DEBUG    | __main__:count_cars:34 - done counting cars
+2021-04-02 05:36:59.586 | DEBUG    | __main__:count_cars:12 - Starting to count cars
+2021-04-02 05:36:59.586 | DEBUG    | __main__:count_cars:14 - jimmy_jeep
+2021-04-02 05:36:59.586 | DEBUG    | __main__:count_cars:18 - four_door_cars: 4
+2021-04-02 05:36:59.987 | DEBUG    | __main__:count_cars:24 - three_door_cars: 2
+2021-04-02 05:37:00.388 | DEBUG    | __main__:count_cars:30 - Total cars at jimmy_jeep: 6
+2021-04-02 05:37:00.788 | DEBUG    | __main__:count_cars:34 - done counting cars
+2021-04-02 05:37:00.789 | INFO     | __main__:<module>:54 - Grand Total of all cars at all lots:
+2021-04-02 05:37:00.789 | INFO     | __main__:<module>:55 - 24
+2021-04-02 05:37:06.190 | DEBUG    | __main__:<module>:45 - App started
+2021-04-02 05:37:06.190 | INFO     | __main__:<module>:47 - Counting cars in: henry_ford,buck_chevy,jimmy_jeep
+2021-04-02 05:37:06.191 | DEBUG    | __main__:count_cars:12 - Starting to count cars
+2021-04-02 05:37:06.191 | DEBUG    | __main__:count_cars:14 - henry_ford
+2021-04-02 05:37:06.191 | DEBUG    | __main__:count_cars:18 - four_door_cars: 2
+2021-04-02 05:37:06.592 | DEBUG    | __main__:count_cars:24 - three_door_cars: 0
+2021-04-02 05:37:06.993 | DEBUG    | __main__:count_cars:30 - Total cars at henry_ford: 2
+2021-04-02 05:37:07.394 | DEBUG    | __main__:count_cars:34 - done counting cars
+2021-04-02 05:37:07.394 | DEBUG    | __main__:count_cars:12 - Starting to count cars
+2021-04-02 05:37:07.395 | DEBUG    | __main__:count_cars:14 - buck_chevy
+2021-04-02 05:37:07.395 | DEBUG    | __main__:count_cars:18 - four_door_cars: 6
+2021-04-02 05:37:07.795 | DEBUG    | __main__:count_cars:24 - three_door_cars: 5
+2021-04-02 05:37:08.196 | DEBUG    | __main__:count_cars:30 - Total cars at buck_chevy: 11
+2021-04-02 05:37:08.597 | DEBUG    | __main__:count_cars:34 - done counting cars
+2021-04-02 05:37:08.597 | DEBUG    | __main__:count_cars:12 - Starting to count cars
+2021-04-02 05:37:08.598 | DEBUG    | __main__:count_cars:14 - jimmy_jeep
+2021-04-02 05:37:08.598 | DEBUG    | __main__:count_cars:18 - four_door_cars: 7
+2021-04-02 05:37:08.999 | DEBUG    | __main__:count_cars:24 - three_door_cars: 3
+2021-04-02 05:37:09.399 | DEBUG    | __main__:count_cars:30 - Total cars at jimmy_jeep: 10
+2021-04-02 05:37:09.800 | DEBUG    | __main__:count_cars:34 - done counting cars
+2021-04-02 05:37:09.800 | INFO     | __main__:<module>:54 - Grand Total of all cars at all lots:
+2021-04-02 05:37:09.801 | INFO     | __main__:<module>:55 - 23
+2021-04-02 05:48:58.715 | DEBUG    | __main__:<module>:45 - App started
+2021-04-02 05:48:58.715 | INFO     | __main__:<module>:47 - Counting cars in: henry_ford,buck_chevy,jimmy_jeep
+2021-04-02 05:48:58.716 | DEBUG    | __main__:count_cars:12 - Starting to count cars
+2021-04-02 05:48:58.716 | DEBUG    | __main__:count_cars:14 - henry_ford
+2021-04-02 05:48:58.716 | DEBUG    | __main__:count_cars:18 - four_door_cars: 8
+2021-04-02 05:48:59.117 | DEBUG    | __main__:count_cars:24 - three_door_cars: 1
+2021-04-02 05:48:59.518 | DEBUG    | __main__:count_cars:30 - Total cars at henry_ford: 9
+2021-04-02 05:48:59.919 | DEBUG    | __main__:count_cars:34 - done counting cars
+2021-04-02 05:48:59.919 | DEBUG    | __main__:count_cars:12 - Starting to count cars
+2021-04-02 05:48:59.919 | DEBUG    | __main__:count_cars:14 - buck_chevy
+2021-04-02 05:48:59.919 | DEBUG    | __main__:count_cars:18 - four_door_cars: 3
+2021-04-02 05:49:00.320 | DEBUG    | __main__:count_cars:24 - three_door_cars: 4
+2021-04-02 05:49:00.721 | DEBUG    | __main__:count_cars:30 - Total cars at buck_chevy: 7
+2021-04-02 05:49:01.122 | DEBUG    | __main__:count_cars:34 - done counting cars
+2021-04-02 05:49:01.122 | DEBUG    | __main__:count_cars:12 - Starting to count cars
+2021-04-02 05:49:01.123 | DEBUG    | __main__:count_cars:14 - jimmy_jeep
+2021-04-02 05:49:01.123 | DEBUG    | __main__:count_cars:18 - four_door_cars: 0
+2021-04-02 05:49:01.523 | DEBUG    | __main__:count_cars:24 - three_door_cars: 5
+2021-04-02 05:49:01.924 | DEBUG    | __main__:count_cars:30 - Total cars at jimmy_jeep: 5
+2021-04-02 05:49:02.325 | DEBUG    | __main__:count_cars:34 - done counting cars
+2021-04-02 05:49:02.325 | INFO     | __main__:<module>:54 - Grand Total of all cars at all lots:
+2021-04-02 05:49:02.325 | INFO     | __main__:<module>:55 - 21
+2021-04-02 06:01:12.936 | DEBUG    | __main__:<module>:45 - App started
+2021-04-02 06:01:12.936 | INFO     | __main__:<module>:47 - Counting cars in: henry_ford,buck_chevy,jimmy_jeep
+2021-04-02 06:01:12.937 | DEBUG    | __main__:count_cars:12 - Starting to count cars
+2021-04-02 06:01:12.937 | DEBUG    | __main__:count_cars:14 - henry_ford
+2021-04-02 06:01:12.937 | DEBUG    | __main__:count_cars:18 - four_door_cars: 5
+2021-04-02 06:01:13.338 | DEBUG    | __main__:count_cars:24 - three_door_cars: 3
+2021-04-02 06:01:13.739 | DEBUG    | __main__:count_cars:30 - Total cars at henry_ford: 8
+2021-04-02 06:01:14.140 | DEBUG    | __main__:count_cars:34 - done counting cars
+2021-04-02 06:01:14.140 | DEBUG    | __main__:count_cars:12 - Starting to count cars
+2021-04-02 06:01:14.141 | DEBUG    | __main__:count_cars:14 - buck_chevy
+2021-04-02 06:01:14.141 | DEBUG    | __main__:count_cars:18 - four_door_cars: 5
+2021-04-02 06:01:14.542 | DEBUG    | __main__:count_cars:24 - three_door_cars: 5
+2021-04-02 06:01:14.943 | DEBUG    | __main__:count_cars:30 - Total cars at buck_chevy: 10
+2021-04-02 06:01:15.343 | DEBUG    | __main__:count_cars:34 - done counting cars
+2021-04-02 06:01:15.343 | DEBUG    | __main__:count_cars:12 - Starting to count cars
+2021-04-02 06:01:15.344 | DEBUG    | __main__:count_cars:14 - jimmy_jeep
+2021-04-02 06:01:15.344 | DEBUG    | __main__:count_cars:18 - four_door_cars: 9
+2021-04-02 06:01:15.745 | DEBUG    | __main__:count_cars:24 - three_door_cars: 0
+2021-04-02 06:01:16.146 | DEBUG    | __main__:count_cars:30 - Total cars at jimmy_jeep: 9
+2021-04-02 06:01:16.547 | DEBUG    | __main__:count_cars:34 - done counting cars
+2021-04-02 06:01:16.547 | INFO     | __main__:<module>:54 - Grand Total of all cars at all lots:
+2021-04-02 06:01:16.547 | INFO     | __main__:<module>:55 - 27
+2021-04-02 06:18:22.086 | DEBUG    | __main__:<module>:46 - App started
+2021-04-02 06:18:22.087 | INFO     | __main__:<module>:48 - Counting cars in: henry_ford,buck_chevy,jimmy_jeep
+2021-04-02 06:18:22.088 | DEBUG    | __main__:count_cars:13 - Starting to count cars
+2021-04-02 06:18:22.088 | DEBUG    | __main__:count_cars:15 - henry_ford
+2021-04-02 06:18:22.089 | DEBUG    | __main__:count_cars:19 - four_door_cars: 0
+2021-04-02 06:18:22.490 | DEBUG    | __main__:count_cars:25 - three_door_cars: 5
+2021-04-02 06:18:22.891 | DEBUG    | __main__:count_cars:31 - Total cars at henry_ford: 5
+2021-04-02 06:18:23.292 | DEBUG    | __main__:count_cars:35 - done counting cars
+2021-04-02 06:18:23.293 | DEBUG    | __main__:count_cars:13 - Starting to count cars
+2021-04-02 06:18:23.293 | DEBUG    | __main__:count_cars:15 - buck_chevy
+2021-04-02 06:18:23.294 | DEBUG    | __main__:count_cars:19 - four_door_cars: 4
+2021-04-02 06:18:23.695 | DEBUG    | __main__:count_cars:25 - three_door_cars: 2
+2021-04-02 06:18:24.096 | DEBUG    | __main__:count_cars:31 - Total cars at buck_chevy: 6
+2021-04-02 06:18:24.497 | DEBUG    | __main__:count_cars:35 - done counting cars
+2021-04-02 06:18:24.498 | DEBUG    | __main__:count_cars:13 - Starting to count cars
+2021-04-02 06:18:24.498 | DEBUG    | __main__:count_cars:15 - jimmy_jeep
+2021-04-02 06:18:24.499 | DEBUG    | __main__:count_cars:19 - four_door_cars: 7
+2021-04-02 06:18:24.899 | DEBUG    | __main__:count_cars:25 - three_door_cars: 0
+2021-04-02 06:18:25.300 | DEBUG    | __main__:count_cars:31 - Total cars at jimmy_jeep: 7
+2021-04-02 06:18:25.701 | DEBUG    | __main__:count_cars:35 - done counting cars
+2021-04-02 06:18:25.702 | INFO     | __main__:<module>:55 - Grand Total of all cars at all lots:
+2021-04-02 06:18:25.702 | INFO     | __main__:<module>:56 - 18
