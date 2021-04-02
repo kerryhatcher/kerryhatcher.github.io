@@ -2,7 +2,7 @@
 title: "Better Python Logging"
 date: 2021-04-01 01:00:00
 description: Debugging can be hard and print everywhere isn't the best. See how to make logging better. 
-featured_image: '/images/better-python-logging/chris-ried-ieic5Tq8YMk-unsplash'
+featured_image: '/images/better-python-logging/chris-ried-ieic5Tq8YMk-unsplash.jpg'
 author: kerry
 ---
 
@@ -195,7 +195,8 @@ Now lets compare the output from the previous example and the current one.
 
 Previous:
 
-```App started
+```s
+App started
 Counting cars in: 
 henry_ford
 buck_chevy
