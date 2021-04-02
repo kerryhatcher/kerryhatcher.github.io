@@ -108,3 +108,25 @@
 2021-04-02 06:18:25.701 | DEBUG    | __main__:count_cars:35 - done counting cars
 2021-04-02 06:18:25.702 | INFO     | __main__:<module>:55 - Grand Total of all cars at all lots:
 2021-04-02 06:18:25.702 | INFO     | __main__:<module>:56 - 18
+2021-04-02 15:13:47.038 | DEBUG    | __main__:<module>:46 - App started
+2021-04-02 15:13:47.040 | INFO     | __main__:<module>:48 - Counting cars in: henry_ford,buck_chevy,jimmy_jeep
+2021-04-02 15:13:47.040 | DEBUG    | __main__:count_cars:13 - Starting to count cars
+2021-04-02 15:13:47.041 | DEBUG    | __main__:count_cars:15 - henry_ford
+2021-04-02 15:13:47.041 | DEBUG    | __main__:count_cars:19 - four_door_cars: 9
+2021-04-02 15:13:47.442 | DEBUG    | __main__:count_cars:25 - three_door_cars: 9
+2021-04-02 15:13:47.843 | DEBUG    | __main__:count_cars:31 - Total cars at henry_ford: 18
+2021-04-02 15:13:48.245 | DEBUG    | __main__:count_cars:35 - done counting cars
+2021-04-02 15:13:48.245 | DEBUG    | __main__:count_cars:13 - Starting to count cars
+2021-04-02 15:13:48.260 | DEBUG    | __main__:count_cars:15 - buck_chevy
+2021-04-02 15:13:48.261 | DEBUG    | __main__:count_cars:19 - four_door_cars: 5
+2021-04-02 15:13:48.662 | DEBUG    | __main__:count_cars:25 - three_door_cars: 2
+2021-04-02 15:13:49.063 | DEBUG    | __main__:count_cars:31 - Total cars at buck_chevy: 7
+2021-04-02 15:13:49.464 | DEBUG    | __main__:count_cars:35 - done counting cars
+2021-04-02 15:13:49.464 | DEBUG    | __main__:count_cars:13 - Starting to count cars
+2021-04-02 15:13:49.465 | DEBUG    | __main__:count_cars:15 - jimmy_jeep
+2021-04-02 15:13:49.465 | DEBUG    | __main__:count_cars:19 - four_door_cars: 9
+2021-04-02 15:13:49.866 | DEBUG    | __main__:count_cars:25 - three_door_cars: 4
+2021-04-02 15:13:50.267 | DEBUG    | __main__:count_cars:31 - Total cars at jimmy_jeep: 13
+2021-04-02 15:13:50.668 | DEBUG    | __main__:count_cars:35 - done counting cars
+2021-04-02 15:13:50.669 | INFO     | __main__:<module>:55 - Grand Total of all cars at all lots:
+2021-04-02 15:13:50.669 | INFO     | __main__:<module>:56 - 38
