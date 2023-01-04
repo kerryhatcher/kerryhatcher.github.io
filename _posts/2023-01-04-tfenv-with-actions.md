@@ -2,7 +2,7 @@
 title: "Using TFENV with GitHub Actions"
 date: 2022-01-04 01:00:00
 description: Make use of tfenv's .terraform-version file when running terraform in GitHub Actions 
-featured_image: '/images/better-python-logging/chris-ried-ieic5Tq8YMk-unsplash.jpg'
+featured_image: '/images/engin-akyurt-A9_IsUtjHm4-unsplash.jpg'
 author: kerry
 ---
 
