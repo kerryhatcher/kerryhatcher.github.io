@@ -27,6 +27,11 @@ Since it doesn't lets extract the contents of the file and pass that along to th
             echo "Using `latest` terraform version"
             echo ::set-output name=version::latest
         fi
+        
+- name: Setup Terraform using terraform-version or latest
+          uses: hashicorp/setup-terraform@v2
+          with:
+            terraform_version: ${{ steps.terraform-version.outputs.version }}
 ```
 
 
