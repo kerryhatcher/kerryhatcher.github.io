@@ -87,3 +87,9 @@ sudo iptables -A FORWARD -p all -i br0 -j ACCEPT
 # Profit
 Winning is for losers 
 
+# Credits
+
+[Big thanks to Chris Dozombak and his great blog post that helped me figure this out.](https://www.dzombak.com/blog/2024/02/Setting-up-KVM-virtual-machines-using-a-bridged-network.html) 
+
+Header photo by <a href="https://unsplash.com/@sapegin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Artem Sapegin</a> on <a href="https://unsplash.com/photos/mountain-surrounded-with-fog-e2uTOpgW5Ec?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
