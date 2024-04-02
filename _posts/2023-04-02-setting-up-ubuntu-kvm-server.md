@@ -73,4 +73,17 @@ TriggeredBy: ● libvirtd-admin.socket
              ● libvirtd.socket
 ```
 
+# Networking Setup
+
+#TODO
+
+## iptables
+
+#TODO details/why
+
+```shell
+sudo iptables -A FORWARD -p all -i br0 -j ACCEPT
+```
+# Profit
+Winning is for losers 
 
