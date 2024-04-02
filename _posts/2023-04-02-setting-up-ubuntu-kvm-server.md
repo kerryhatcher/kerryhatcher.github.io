@@ -2,7 +2,7 @@
 title: "Setting up a Ubuntu VM Server with KVM/QEMU"
 date: 2024-04-02 01:00:00
 description: Get you Ubuntu server ready to run VMs. 
-featured_image: '/images/better-python-logging/chris-ried-ieic5Tq8YMk-unsplash.jpg'
+featured_image: 'images/2023-04-02-setting-up-ubuntu-kvm-server/artem-sapegin-e2uTOpgW5Ec-unsplash.jpg'
 author: kerry
 ---
 
