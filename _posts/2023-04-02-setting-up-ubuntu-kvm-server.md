@@ -1,5 +1,5 @@
 ---
-title: "Setting up a Ubuntu VM Server with KVM/QEMU"
+title: "Setting up a Ubuntu KVM/QEMU VM host with bridged networking"
 date: 2024-04-02 01:00:00
 description: Get you Ubuntu server ready to run VMs. 
 featured_image: 'images/2023-04-02-setting-up-ubuntu-kvm-server/artem-sapegin-e2uTOpgW5Ec-unsplash.jpg'
