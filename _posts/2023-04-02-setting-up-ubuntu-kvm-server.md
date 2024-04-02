@@ -8,8 +8,23 @@ author: kerry
 
 Ever wanted to use a plan Ubuntu server to manage your VMs instead of something like Proxmox or TrueNAS? Me too. Here I document how I setup my own home server to host VMs. 
 
+This will incude setting up a bridged network so that you VMs can exist on your regular network without using NAT on the host. 
+
 # Basic Setup
 
+
+
 ```shell
-sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients virtinst libguestfs-tools libosinfo-bin bridge-utils
+sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients virtinst libguestfs-tools libosinfo-bin bridge-utils cpu-checker
+```
+
+```shell
+kvm-ok
+```
+Should result in something like this: 
+
+```shell
+user@host:~$ kvm-ok
+INFO: /dev/kvm exists
+KVM acceleration can be used
 ```
