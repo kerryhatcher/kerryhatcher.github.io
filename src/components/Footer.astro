@@ -1,0 +1,10 @@
+---
+import SocialLinks from './SocialLinks.astro';
+---
+<footer class="max-w-3xl mx-auto px-4 py-10 mt-16 border-t border-line flex items-center justify-between text-sm text-muted">
+  <p>&copy; {new Date().getFullYear()} Kerry Hatcher</p>
+  <div class="flex gap-4 items-center">
+    <SocialLinks />
+    <a href="/rss.xml" class="hover:underline">RSS</a>
+  </div>
+</footer>
