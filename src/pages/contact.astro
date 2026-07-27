@@ -3,13 +3,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import SocialLinks from '../components/SocialLinks.astro';
 ---
 <BaseLayout title="Contact">
-  <article class="prose dark:prose-invert max-w-none py-10">
-    <h1>Contact</h1>
+  <article class="py-10">
+    <h1 class="text-2xl font-bold text-ink uppercase tracking-wide mb-6">Contact</h1>
     <!-- PLACEHOLDER: verify these are the right contact details. Tracked in Task 13. -->
-    <p>
-      Email me at <a href="mailto:kerry@kerryhatcher.com">kerry@kerryhatcher.com</a>,
-      or find me elsewhere:
-    </p>
+    <div class="zine-annotation mb-6">
+      <p class="text-sm leading-relaxed">
+        <span class="text-accent">►</span> Email me at <a href="mailto:kerry@kerryhatcher.com" class="text-accent hover:underline">kerry@kerryhatcher.com</a>, or find me elsewhere:
+      </p>
+    </div>
+    <SocialLinks />
   </article>
-  <SocialLinks />
 </BaseLayout>

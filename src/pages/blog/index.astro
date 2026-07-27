@@ -8,15 +8,16 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
 );
 ---
 <BaseLayout title="Blog">
-  <h1 class="text-3xl font-bold py-10">All posts</h1>
-  <section class="pb-16">
-    {posts.map((post) => (
+  <h1 class="text-2xl font-bold text-ink uppercase tracking-wide py-10">All posts</h1>
+  <section class="pb-16 grid grid-cols-1 sm:grid-cols-2 gap-4">
+    {posts.map((post, i) => (
       <PostCard
         title={post.data.title}
         description={post.data.description}
         pubDate={post.data.pubDate}
         tags={post.data.tags}
         href={`/blog/${post.id}/`}
+        index={i}
       />
     ))}
   </section>

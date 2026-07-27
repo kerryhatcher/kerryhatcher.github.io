@@ -11,21 +11,21 @@ const { title, description, pubDate, tags } = Astro.props;
 ---
 <BaseLayout title={title} description={description}>
   <article class="py-10">
-    <h1 class="text-4xl font-bold mb-2">{title}</h1>
-    <time datetime={pubDate.toISOString()} class="text-sm text-muted">
+    <h1 class="text-xl md:text-2xl font-bold text-ink uppercase tracking-wide mb-2">{title}</h1>
+    <time datetime={pubDate.toISOString()} class="text-xs text-muted">
       {pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
     </time>
-    <div class="flex gap-2 mt-2 mb-8 flex-wrap">
+    <div class="flex gap-2 mt-3 mb-8 flex-wrap">
       {tags.map((tag) => (
         <a
           href={`/blog/tags/${tag}/`}
-          class="text-xs uppercase tracking-wide text-muted border border-line rounded-full px-2 py-0.5 hover:border-accent hover:text-accent"
+          class="zine-tag no-underline hover:opacity-80 transition-opacity"
         >
           {tag}
         </a>
       ))}
     </div>
-    <div class="prose dark:prose-invert max-w-none">
+    <div class="prose dark:prose-invert max-w-none text-sm leading-relaxed">
       <slot />
     </div>
   </article>

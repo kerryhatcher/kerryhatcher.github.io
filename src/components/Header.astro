@@ -8,11 +8,13 @@ const navItems = [
   { label: 'Contact', href: '/contact/' },
 ];
 ---
-<header class="max-w-3xl mx-auto px-4 py-6 flex items-center justify-between">
-  <a href="/" class="font-bold text-lg text-accent">K·H</a>
-  <nav class="flex items-center gap-6">
+<header class="flex items-center justify-between mb-8 pb-6 border-b border-line">
+  <a href="/" class="text-silver font-bold text-2xl tracking-widest no-underline hover:opacity-80 transition-opacity">
+    K·H
+  </a>
+  <nav class="flex items-center gap-2 flex-wrap">
     {navItems.map((item) => (
-      <a href={item.href} class="hover:text-accent hover:underline decoration-accent">{item.label}</a>
+      <a href={item.href} class="zine-btn">{item.label}</a>
     ))}
     <ThemeToggle />
   </nav>

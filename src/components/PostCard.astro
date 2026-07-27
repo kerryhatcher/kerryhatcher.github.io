@@ -7,20 +7,23 @@ interface Props {
   pubDate: Date;
   tags: string[];
   href: string;
+  index: number;
 }
-const { title, description, pubDate, tags, href } = Astro.props;
+const { title, description, pubDate, tags, href, index } = Astro.props;
+
+// Alternate rotation for paste-up feel
+const rotations = ['rotate-neg', 'rotate-pos', 'rotate-neg2', 'rotate-pos2'];
+const rotClass = rotations[index % rotations.length];
 ---
-<article class="border-b border-line py-6 last:border-b-0">
-  <div class="flex items-baseline justify-between gap-4 flex-wrap">
-    <h3 class="text-xl font-semibold">
-      <a href={href} class="hover:underline decoration-accent">{title}</a>
-    </h3>
-    <time datetime={pubDate.toISOString()} class="text-sm text-muted whitespace-nowrap">
-      {pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
-    </time>
-  </div>
-  <p class="text-muted mt-2">{description}</p>
-  <div class="flex gap-2 mt-3 flex-wrap">
+<article class={`zine-post ${rotClass}`}>
+  <div class="flex gap-2 flex-wrap mb-2">
     {tags.map((tag) => <TagPill tag={tag} />)}
   </div>
+  <h3 class="text-sm font-bold text-ink leading-snug">
+    <a href={href} class="no-underline hover:text-accent transition-colors">{title}</a>
+  </h3>
+  <p class="text-xs text-muted mt-1 leading-relaxed">{description}</p>
+  <time datetime={pubDate.toISOString()} class="text-xs text-muted mt-2 block">
+    {pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+  </time>
 </article>

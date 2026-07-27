@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 <BaseLayout title="Search">
-  <h1 class="text-3xl font-bold py-10">Search</h1>
+  <h1 class="text-2xl font-bold text-ink uppercase tracking-wide py-10">Search</h1>
   <div id="search" class="pb-16"></div>
   <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
   <script src="/pagefind/pagefind-ui.js" is:inline></script>
@@ -13,7 +13,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       }
     });
   </script>
-  <p class="text-sm text-muted pb-16">
+  <p class="text-xs text-muted pb-16">
     Search only works on the deployed/built site — during local dev
     (<code>astro dev</code>), no search index exists yet.
   </p>

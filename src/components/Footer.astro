@@ -1,10 +1,10 @@
 ---
 import SocialLinks from './SocialLinks.astro';
 ---
-<footer class="max-w-3xl mx-auto px-4 py-10 mt-16 border-t border-line flex items-center justify-between text-sm text-muted">
+<footer class="mt-12 pt-6 border-t border-line flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted">
   <p>&copy; {new Date().getFullYear()} Kerry Hatcher</p>
-  <div class="flex gap-4 items-center">
+  <div class="flex gap-4 items-center flex-wrap">
     <SocialLinks />
-    <a href="/rss.xml" class="hover:text-accent hover:underline decoration-accent">RSS</a>
+    <a href="/rss.xml" class="hover:text-accent transition-colors">RSS</a>
   </div>
 </footer>

@@ -13,12 +13,13 @@ const {
 } = Astro.props;
 ---
 <!doctype html>
-<html lang="en" class="font-sans bg-bg text-ink">
+<html lang="en" class="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title} · Kerry Hatcher</title>
     <meta name="description" content={description} />
+    <meta name="theme-color" content="#0d1117" />
     <link
       rel="alternate"
       type="application/rss+xml"
@@ -34,12 +35,13 @@ const {
       })();
     </script>
   </head>
-  <body>
-    <div class="h-0.5 bg-accent"></div>
-    <Header />
-    <main class="max-w-3xl mx-auto px-4">
-      <slot />
-    </main>
-    <Footer />
+  <body class="font-mono bg-bg text-body min-h-screen">
+    <div class="zine max-w-4xl mx-auto my-6 md:my-10 px-6 md:px-10 py-8">
+      <Header />
+      <main>
+        <slot />
+      </main>
+      <Footer />
+    </div>
   </body>
 </html>
