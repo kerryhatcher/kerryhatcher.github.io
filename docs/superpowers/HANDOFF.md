@@ -82,6 +82,16 @@ Both are called out in `DESIGN.md`'s "Open questions" section:
    visual iteration is wanted, it should be narrow tweaks to the real build
    (spacing, one accent color, type scale), not new concept exploration.
 
+## Resolved 2026-07-26
+
+Both open questions were answered "yes" and implemented in commit `1d1c799`:
+
+1. **Navy accent added** — `#161f30` converted to `oklch(0.24 0.035 263)`
+   (light) / `oklch(0.65 0.08 263)` (dark) as `--color-accent`.
+2. **Flare applied** — accent-colored link underlines on hover, K·H logo
+   in accent, 2px accent bar at page top, tag pills/theme toggle/nav use
+   accent on hover, post titles and project links use accent underline.
+
 ## Content note
 
 Placeholder content used throughout the plan (bio text, three fake project
@@ -115,3 +125,10 @@ Both at the same URL (last version shown is round 3):
 2. Ask the user: **subagent-driven execution or inline execution** for the plan (per `writing-plans` skill's handoff convention — this question was never asked yet because the session ran out before reaching it).
 3. Execute the plan task-by-task using `superpowers:subagent-driven-development` or `superpowers:executing-plans` per their choice.
 4. After the build exists, come back to the two open questions above with something concrete to react to, instead of asking abstractly.
+
+## Status as of 2026-07-26
+
+- **All 11 plan tasks executed** via subagent-driven chain (commit range `88bd8cd`–`6828370`).
+- **Both open questions resolved** and implemented (commit `1d1c799`).
+- **One manual step remains:** GitHub repo Settings → Pages → Source must be set to "GitHub Actions".
+- **5 placeholder-content issues** open (#15–#19) for real content migration.
