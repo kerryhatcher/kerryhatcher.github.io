@@ -11,12 +11,24 @@ CDNs, email providers, etc.), which was deliberately wiped clean in the
 "fresh new site" commit. The repo is currently empty except for `.gitignore`.
 This spec covers rebuilding it from scratch as an Astro site.
 
+**Revised after brainstorming:** Kerry has a real, currently-live site at
+kerryhatcher.com — a mixed civic (local government, education, digital
+privacy, a school board candidacy) and technical blog, ~43 posts, real bio
+and hero photo. After three rounds of new-visual-direction exploration (see
+git history of this doc / session), Kerry decided to keep that site's actual
+look rather than adopt a new one. See `DESIGN.md` at the repo root for the
+extracted palette/typography/layout tokens — that file, not this spec, is
+the visual source of truth. This spec's routes/content-model below still
+apply; treat "personal-brand homepage" below as inheriting DESIGN.md's real,
+quiet, text-forward look, not a fresh hero/bio treatment.
+
 ## Goals
 
 - Personal-brand homepage (hero/bio) with a blog as one section of the site,
-  not the whole site.
-- Start with no migrated content — new posts going forward. Old Jekyll posts
-  are not being ported.
+  not the whole site — visually per DESIGN.md, not a new design.
+- Start with no migrated content — new posts going forward for this repo's
+  build; whether/how much of kerryhatcher.com's real content eventually
+  migrates is a separate, later, still-undecided question (see PRODUCT.md).
 - Deploy to GitHub Pages via GitHub Actions, since this is a
   `<username>.github.io` repo.
 - Every piece of placeholder content ships with a tracked GitHub issue so it
@@ -138,4 +150,10 @@ No unit test suite is warranted for a static content site. Verification is:
 
 ## Open questions
 
-None outstanding — all resolved during brainstorming.
+- Visual direction is resolved: inherit kerryhatcher.com's real look, per
+  DESIGN.md. Two things remain genuinely open there: whether the unused
+  `#161f30` navy becomes a real accent color, and what specific "little more
+  flare" additions to make — both to be proposed narrowly and confirmed
+  before building, not assumed.
+- Content migration scope/timing from kerryhatcher.com is undecided and out
+  of scope for this spec (see PRODUCT.md Evidence on Hand).
