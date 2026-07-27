@@ -1,6 +1,42 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const posts = allPosts
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 5);
+const totalCount = allPosts.length;
 ---
 <BaseLayout title="Home">
-  <p class="py-10">Placeholder — replaced in Task 4.</p>
+  <section class="py-14">
+    <h1 class="text-5xl md:text-7xl font-bold leading-tight max-w-2xl">
+      I write about whatever I'm digging into.
+    </h1>
+    <p class="text-muted mt-4">Macon-Bibb County, Georgia</p>
+    <!-- PLACEHOLDER BIO: replace with real copy. Tracked in Task 13. -->
+    <p class="mt-4 max-w-prose">
+      I'm a software engineer, writing down the questions I run into and what
+      I found out. This bio is placeholder copy pending the real one.
+    </p>
+    <p class="text-sm text-muted mt-6">
+      {totalCount} {totalCount === 1 ? 'piece' : 'pieces'} &middot; Newest first
+    </p>
+  </section>
+
+  <section class="pb-16">
+    {posts.map((post) => (
+      <PostCard
+        title={post.data.title}
+        description={post.data.description}
+        pubDate={post.data.pubDate}
+        tags={post.data.tags}
+        href={`/blog/${post.id}/`}
+      />
+    ))}
+    <p class="mt-8">
+      <a href="/blog/" class="hover:underline font-medium">All posts &rarr;</a>
+    </p>
+  </section>
 </BaseLayout>

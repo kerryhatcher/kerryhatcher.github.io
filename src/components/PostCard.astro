@@ -1,0 +1,26 @@
+---
+import TagPill from './TagPill.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  pubDate: Date;
+  tags: string[];
+  href: string;
+}
+const { title, description, pubDate, tags, href } = Astro.props;
+---
+<article class="border-b border-line py-6 last:border-b-0">
+  <div class="flex items-baseline justify-between gap-4 flex-wrap">
+    <h3 class="text-xl font-semibold">
+      <a href={href} class="hover:underline">{title}</a>
+    </h3>
+    <time datetime={pubDate.toISOString()} class="text-sm text-muted whitespace-nowrap">
+      {pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+    </time>
+  </div>
+  <p class="text-muted mt-2">{description}</p>
+  <div class="flex gap-2 mt-3 flex-wrap">
+    {tags.map((tag) => <TagPill tag={tag} />)}
+  </div>
+</article>
