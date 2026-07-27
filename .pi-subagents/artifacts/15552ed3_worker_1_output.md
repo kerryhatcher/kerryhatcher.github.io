@@ -1,0 +1,1 @@
+No staged files. Here is the structured acceptance report.

@@ -9,10 +9,10 @@ const navItems = [
 ];
 ---
 <header class="max-w-3xl mx-auto px-4 py-6 flex items-center justify-between">
-  <a href="/" class="font-bold text-lg">K·H</a>
+  <a href="/" class="font-bold text-lg text-accent">K·H</a>
   <nav class="flex items-center gap-6">
     {navItems.map((item) => (
-      <a href={item.href} class="hover:underline">{item.label}</a>
+      <a href={item.href} class="hover:text-accent hover:underline decoration-accent">{item.label}</a>
     ))}
     <ThemeToggle />
   </nav>

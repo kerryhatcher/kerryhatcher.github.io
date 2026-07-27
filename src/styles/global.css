@@ -9,6 +9,7 @@
   --color-ink: oklch(0.22 0.04 252);
   --color-muted: oklch(0.45 0.03 252);
   --color-line: oklch(0.88 0.015 252);
+  --color-accent: oklch(0.24 0.035 263);
 }
 
 .dark {
@@ -16,4 +17,5 @@
   --color-ink: oklch(0.93 0.015 252);
   --color-muted: oklch(0.68 0.02 252);
   --color-line: oklch(0.32 0.02 252);
+  --color-accent: oklch(0.65 0.08 263);
 }
